@@ -18,7 +18,7 @@ A aplicação consiste em um sistema de gerenciamento acadêmico que permite o c
 ## Executar o projeto
 1. Clone o repositório com os códigos referentes ao sistema de cadastros acadêmicos.
 2. No PostgreSQL, execute o script SQL fornecido no arquivo Dados_academicos.sql para criar as tabelas e os relacionamentos.
-3. Na sua IDE, como o IntelliJ IDEA, crie e configure um arquivo BancoDeDados.properties na pasta resources do seu projeto com as suas credenciais do banco seu dados de dados.
+3. Na sua IDE, como o IntelliJ IDEA, crie e configure um arquivo BancoDeDados.properties na pasta resources do seu projeto com as suas credenciais do seua banco de dados.
    ```bash
    db.url=jdbc:postgresql://localhost:5432/Dados_academicos
    db.usuario=seu_usuario
