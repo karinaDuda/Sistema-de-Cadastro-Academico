@@ -23,5 +23,5 @@ A aplicação consiste em um sistema de gerenciamento acadêmico que permite o c
    db.url=jdbc:postgresql://localhost:5432/Dados_academicos
    db.usuario=seu_usuario
    db.senha=sua_senha
-4. Por fim, basta executar a classe principal Cadastro.java pela sua IDE.
- 
+4. Para concluir a conexao com o PostgreSQL, é necessario que baixe o PostgreSQL JDBC Driver e adicione-o nas configurações de bibliotecas da sua IDE. Ao adicionar essa etapa a classe Conexao.java consigue encontrar o driver e se comunicar com o banco de dados.
+5. Por fim, basta executar a classe principal Cadastro.java pela sua IDE.
